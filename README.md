@@ -3,7 +3,7 @@
 
 # 🧩 2048 Game Docker Deployment Guide
 
-This repository demonstrates how to **containerize** a simple 2048 web game using Docker, **build and run it on an Ubuntu server**, and finally **push the image to AWS Elastic Container Registry (ECR)** for deployment.
+This repository demonstrates how to **containerize** 2048 web game using Docker, **build and run it on an Ubuntu server**, and finally **push the image to AWS Elastic Container Registry (ECR)** for deployment.
 
 ---
 
