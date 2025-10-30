@@ -42,8 +42,7 @@ Verify the image:
 docker images
 
 You should see something like:
-<img width="1124" height="247" alt="Image" src="https://github.com/user-attachments/assets/9e658801-88e1-46aa-976f-f7b88cfc9e24" />
-
+![image](https://github.com/nikhilreddy56/2048Launchpad/blob/d10681f27332a2f6444a8db2821246d9d5479beb/Screenshot%202025-10-30%20155227.png)
 🧩 Step 3: Run the Container
 
 Run the game locally on port 80:
