@@ -81,5 +81,7 @@ Follow push commands, based on the OS-
 Once uploaded - 
 <img src="https://github.com/user-attachments/assets/b044dd23-a80f-448d-8e9d-cef81869df6e" alt="2048 Game Screenshot" width="800" />
 
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b044dd23-a80f-448d-8e9d-cef81869df6e" alt="2048 Game Screenshot" width="800"/>
+</p>
 
