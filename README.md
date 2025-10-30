@@ -43,4 +43,19 @@ docker images
 You should see something like:
 <img width="1124" height="247" alt="Image" src="https://github.com/user-attachments/assets/9e658801-88e1-46aa-976f-f7b88cfc9e24" />
 
+🧩 Step 3: Run the Container
+
+Run the game locally on port 80:
+docker run -d -p 80:80 2048-game:1.0
+
+Verify the container is running:
+docker ps
+
+Access the game in your browser using your server’s public IP:
+http:http://52.91.92.185:80/
+
+You should see the 2048 game running 🎮 (PS:Here I used port 90)
+
+<img width="1316" height="671" alt="image" src="https://github.com/user-attachments/assets/f5cc0170-800f-4a51-b01d-537a60b9d46d" />
+
 
