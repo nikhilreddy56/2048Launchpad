@@ -79,7 +79,7 @@ Follow push commands, based on the OS-
 <img width="743" height="534" alt="image" src="https://github.com/user-attachments/assets/48c7eb83-df9f-4b96-9da7-4bee163363f9" />
 
 Once uploaded - 
-<img width="1112" height="274" alt="image" src="https://github.com/user-attachments/assets/b044dd23-a80f-448d-8e9d-cef81869df6e" />
+<img src="https://github.com/user-attachments/assets/b044dd23-a80f-448d-8e9d-cef81869df6e" alt="2048 Game Screenshot" width="800" />
 
 
 
