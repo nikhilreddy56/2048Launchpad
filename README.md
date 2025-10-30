@@ -15,3 +15,29 @@ sudo apt update -y
 sudo apt install -y docker.io awscli git
 sudo systemctl start docker
 sudo systemctl enable docker
+
+🧱 Step 1: Create a Dockerfile
+
+In the project root directory, create a file named Dockerfile:
+
+FROM ubuntu:22.04
+
+RUN apt-get update
+RUN apt-get install -y nginx zip curl
+
+RUN echo "daemon off;" >>/etc/nginx/nginx.conf
+RUN curl -o /var/www/html/master.zip -L https://codeload.github.com/gabrielecirulli/2048/zip/master
+
+RUN cd /var/www/html/ && unzip master.zip && mv 2048-master/* . && rm -rf 2048-master master.zip
+EXPOSE 80
+CMD ["/usr/sbin/nginx", "-c", "/etc/nginx/nginx.conf"]
+
+🏗️ Step 2: Build the Docker Image
+
+Build the Docker image and tag it with a name and version:
+docker build -t 2048-game:latest .
+
+Verify the image:
+docker images
+<img width="1124" height="247" alt="image" src="https://github.com/user-attachments/assets/cf40d379-d984-4f8b-80d6-3b00d54640d9" />
+
