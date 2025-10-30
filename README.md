@@ -1,3 +1,4 @@
+
 # Docker-project
 
 # 🧩 2048 Game Docker Deployment Guide
@@ -57,5 +58,24 @@ http:http://52.91.92.185:80/
 You should see the 2048 game running 🎮 (PS:Here I used port 90)
 
 <img width="1316" height="671" alt="image" src="https://github.com/user-attachments/assets/f5cc0170-800f-4a51-b01d-537a60b9d46d" />
+
+☁️ Step 4: Push Image to AWS ECR
+1️⃣ Configure AWS CLI
+
+Run the following and enter your credentials:
+aws configure
+
+You’ll be prompted for:
+
+AWS Access Key ID
+AWS Secret Access Key
+Default region name (e.g. us-east-1)
+Default output format (json)
+
+2️⃣ Create an ECR Repository on AWS Console 
+<img width="1061" height="302" alt="image" src="https://github.com/user-attachments/assets/4a39634f-6831-4a7e-af63-153d341b0e73" />
+
+Follow push commands, based on the OS- 
+<img width="743" height="534" alt="image" src="https://github.com/user-attachments/assets/48c7eb83-df9f-4b96-9da7-4bee163363f9" />
 
 
