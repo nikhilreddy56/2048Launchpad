@@ -39,5 +39,5 @@ docker build -t 2048-game:latest .
 
 Verify the image:
 docker images
-<img width="1124" height="247" alt="image" src="https://github.com/user-attachments/assets/cf40d379-d984-4f8b-80d6-3b00d54640d9" />
+<img width="1122" height="247" alt="Screenshot 2025-10-30 152308" src="https://github.com/user-attachments/assets/0498c8cd-5eab-422a-a2be-a874e7039546" />
 
