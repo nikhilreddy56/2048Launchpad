@@ -41,7 +41,6 @@ Verify the image:
 docker images
 
 You should see something like:
-<img width="1122" height="247" alt="Screenshot 2025-10-30 152308" src="https://github.com/user-attachments/assets/0498c8cd-5eab-422a-a2be-a874e7039546" />
-
+<img width="1124" height="247" alt="Image" src="https://github.com/user-attachments/assets/9e658801-88e1-46aa-976f-f7b88cfc9e24" />
 
 
